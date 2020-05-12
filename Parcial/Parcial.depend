@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1589147193 source:c:\users\lucio\desktop\parcial\validations.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Inputs.h"
+	"Validations.h"
+
+1589222790 c:\users\lucio\desktop\parcial\inputs.h
+
+1589147193 c:\users\lucio\desktop\parcial\validations.h
+
+1589234386 source:c:\users\lucio\desktop\parcial\inputs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Inputs.h"
+	"Validations.h"
+
+1589231090 source:c:\users\lucio\desktop\parcial\showdata.c
+
+1589233837 source:c:\users\lucio\desktop\parcial\estructura.c
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Inputs.h"
+	"Validations.h"
+	"ShowData.h"
+	"Estructura.h"
+	"Estructura2.h"
+
+1589230303 c:\users\lucio\desktop\parcial\showdata.h
+
+1589233837 c:\users\lucio\desktop\parcial\estructura.h
+
+1589234454 source:c:\users\lucio\desktop\parcial\estructura2.c
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Inputs.h"
+	"Validations.h"
+	"ShowData.h"
+	"Estructura.h"
+	"Estructura2.h"
+
+1589234285 c:\users\lucio\desktop\parcial\estructura2.h
+
+1589234130 source:c:\users\lucio\desktop\parcial\main.c
+	<conio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Inputs.h"
+	"Validations.h"
+	"ShowData.h"
+	"Estructura_EstructuraB.h"
+
+1589235842 c:\users\lucio\desktop\parcial\estructura_estructurab.h
+	"Estructura.h"
+	"Estructura2.h"
+
+1589233977 source:c:\users\lucio\desktop\parcial\estructura_estructurab.c
+	"Estructura_EstructuraB.h"
+
