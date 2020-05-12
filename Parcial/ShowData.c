@@ -6,7 +6,7 @@
  */
 void showMenu(void)
 {
-        printf("\n1.Cargar \n");
+        printf("\n1.Cargar estructura\n");
         printf("2.Modificar \n");
         printf("3.Eliminar \n");
         printf("4.Mostrar\n");
