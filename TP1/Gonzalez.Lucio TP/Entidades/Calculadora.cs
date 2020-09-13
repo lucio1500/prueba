@@ -18,6 +18,7 @@ namespace Entidades
         private static string ValidarOperador(char operador)
         {
             string operadorValidado = "+";
+
             if (operador == '+' || operador == '*' || operador == '-' || operador == '/')
             {
                 operadorValidado = operador.ToString();

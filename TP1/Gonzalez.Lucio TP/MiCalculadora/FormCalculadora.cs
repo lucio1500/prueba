@@ -33,12 +33,9 @@ namespace MiCalculadora
         /// <returns>Retorna el resultado de la operacion realizada.</returns>
         private static double Operar(string numero1, string numero2, string operador)
         {
-            double resultado;
-
             Numero num1 = new Numero(numero1);
             Numero num2 = new Numero(numero2);
-            resultado =Calculadora.Operar(num1,num2,operador);
-            return resultado;
+            return Calculadora.Operar(num1,num2,operador);;
         }
 
         /// <summary>
@@ -104,10 +101,8 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void ConvertirBinario_Click(object sender, EventArgs e)
         {
-            string resultado;
             Numero n1 = new Numero();
-            resultado = n1.DecimalBinario(lblResultado.Text);
-            lblResultado.Text = resultado;
+            lblResultado.Text = n1.DecimalBinario(lblResultado.Text);;
         }
 
         /// <summary>
@@ -117,10 +112,8 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void ConvertirDecimal_Click(object sender, EventArgs e)
         {
-            string resultado;
-            Numero n1 = new Numero();
-            resultado=n1.BinarioDecimal(lblResultado.Text);
-            lblResultado.Text = resultado;
+            Numero n1 = new Numero();         
+            lblResultado.Text = n1.BinarioDecimal(lblResultado.Text);
         }
 
         #endregion

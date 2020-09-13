@@ -19,7 +19,7 @@ namespace Entidades
         /// <summary>
         /// Valida y asigna un valor al atributo número.
         /// </summary>
-        public String SetNumero
+        public string SetNumero
         {
             set 
             { 
@@ -70,10 +70,7 @@ namespace Entidades
         {
             double numValidado = 0;
 
-            if(double.TryParse(strNumero, out numValidado))
-            {
-                return numValidado;
-            }
+            double.TryParse(strNumero, out numValidado);
 
             return numValidado;
         }
@@ -113,8 +110,6 @@ namespace Entidades
         {
             string valor = "Valor invalido";
             int auxDecimal;
-
-            //Numero n1 = new Numero();
             
             if (EsBinario(binario))
             {
@@ -148,8 +143,8 @@ namespace Entidades
 
             if (double.TryParse(numero, out num))   //Verifica si la cadena es numerica, y la convierto en un double.
             {
-                num1 = (int)num;                    //Casteo el double a entero.
-                num1=Math.Abs(num1);                //Tomo el valor absoluto del double.
+                num1 = (int)num;                    //Tomo la parte entera del double.
+                num1=Math.Abs(num1);                //Tomo el valor absoluto del entero.
                 valor = Convert.ToString(num1, 2);  //Convierto el entero a binario.
             }
 
@@ -168,11 +163,7 @@ namespace Entidades
         /// <returns>Resultado de la suma de dos objetos Numero.</returns>
         public static double operator +(Numero x, Numero y)
         {
-            double resul;
-
-            resul = x.numero + y.numero;
-
-            return resul;
+            return x.numero + y.numero;
         }
 
         /// <summary>
@@ -183,11 +174,7 @@ namespace Entidades
         /// <returns>Resultado de la resta de dos objetos Numero.</returns>
         public static double operator -(Numero x, Numero y)
         {
-            double resul;
-
-            resul = x.numero - y.numero;
-
-            return resul;
+            return x.numero - y.numero;
         }
 
         /// <summary>
@@ -198,11 +185,7 @@ namespace Entidades
         /// <returns>Resultado de la multiplicacion de dos objetos Numero.</returns>
         public static double operator *(Numero x, Numero y)
         {
-            double resul;
-
-            resul = x.numero * y.numero;
-
-            return resul;
+            return x.numero * y.numero;;
         }
 
         /// <summary>
